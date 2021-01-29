@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="176dp"
+    android:gravity="bottom"
+    android:padding="16dp"
+    android:background="@color/logoblue"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    >
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/logoyellow"
+            android:textSize="20sp"
+            android:text="@string/Profile"
+            android:fontFamily="@font/titillium_semibold"/>
+
+        <TextView
+            android:id="@+id/nav_deliveryManName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/whiteColor"
+            android:gravity="left"
+            android:paddingTop="10dp"
+            android:hint="Name"
+            android:fontFamily="@font/titillium_regular"
+            />
+
+        <TextView
+            android:id="@+id/nav_deliveryManId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/whiteColor"
+            android:paddingTop="5dp"
+            android:gravity="left"
+            android:fontFamily="@font/titillium_regular"
+            android:hint="Id" />
+
+        <TextView
+            android:paddingTop="5dp"
+            android:id="@+id/nav_deliveryManReportingBossEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/whiteColor"
+            android:gravity="left"
+            android:fontFamily="@font/titillium_regular"
+            android:hint="Reporting Boss" />
+</LinearLayout>

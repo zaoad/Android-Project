@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#607d8b</color> <!--toolbar-->
+    <color name="colorPrimaryDark">#78909c</color> <!--notificationbar-->
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="hintColor">#37474f</color>
+    <color name="buttonBackgroundColor">#00897b</color>
+    <color name="userProfileCardColor">#252323</color>
+    <color name="whiteColor">#fafafa</color>
+    <color name="yellowColor">#fcba03</color>
+    <color name="lightblue">#eef3f9</color>
+    <color name="logoblue">#0066b3</color>
+    <color name="logobluelight">#3A8BC9</color>
+    <color name="logoyellow">#fccf5c</color>
+    <color name="cardviewcolor">#eef3f9</color>
+    <color name="black">#000000</color>
+    <color name="lightblack">#504F4F</color>
+    <color name="linecolor">#C8D3F8</color>
+    <color name="errormessagecolor">#BB1A1A</color>
+    <color name="cardviewcreated">#eef3f9</color>
+    <color name="cardviewenroutepickup">#D8E8FA</color>
+    <color name="cardviewpickedup">#C2DBF8</color>
+    <color name="cardviewenroutedelivey">#A5C9F7</color>
+    <color name="cardviewdelivered">#C4DDFC</color>
+
+
+
+</resources>

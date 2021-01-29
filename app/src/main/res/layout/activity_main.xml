@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@color/lightblue"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/waittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Please wait"
+        android:textSize="20sp"
+        android:textColor="@color/logoblue"
+        android:fontFamily="@font/titillium_regular"
+        android:layout_marginBottom="20dp"
+        android:visibility="invisible"
+        />
+    <ProgressBar
+        android:id="@+id/vCodeProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:indeterminateTintMode="src_atop"
+        android:indeterminateTint="@color/logoyellow"
+        android:visibility="invisible"
+        />
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/hintColor"
+        app:hintTextAppearance="@style/HintText"
+        android:paddingBottom="20dp">
+
+        <EditText
+            android:id="@+id/phoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:inputType="number"
+            android:hint="Mobile Number"
+            android:backgroundTint="@color/logoblue"
+            android:fontFamily="@font/titillium_regular"
+            android:textCursorDrawable="@drawable/cursor"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/okPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_round"
+        android:text="next"
+        android:textColor="#ffffff"/>
+
+    <!--<FrameLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:id="@+id/fragment_container">-->
+    <!--</FrameLayout>-->
+</LinearLayout>
+
+
+
+
+
+

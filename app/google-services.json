@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "201971366625",
+    "firebase_url": "https://quixx-e47da.firebaseio.com",
+    "project_id": "quixx-e47da",
+    "storage_bucket": "quixx-e47da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201971366625:android:d5765d7d6b79a3f3",
+        "android_client_info": {
+          "package_name": "com.teamd.quixx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "201971366625-no5haph1c0l528vcmonhc09duhfgbdq3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.teamd.quixx",
+            "certificate_hash": "29ae149ee7e27ca4e0e68ab737e0c99511ec5c99"
+          }
+        },
+        {
+          "client_id": "201971366625-qe3ms2jveepdositbnpj48cjt86hpg2n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx3hz0zfRwdhDUHWGYGxSjAT9772TNyXI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "201971366625-qe3ms2jveepdositbnpj48cjt86hpg2n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

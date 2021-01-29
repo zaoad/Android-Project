@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Delivery Agent</string>
+    <string name="google_maps_key">AIzaSyB6WDOZpF3pGluGoC-F1IOmG_nKjcc7eNE</string>
+    <!--for drawlaout string parameter-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!--for navigation heade-->
+    <string name="Profile">"PROFILE"</string>
+</resources>

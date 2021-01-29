@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_margin="5dp"
+    card_view:cardBackgroundColor="@color/cardviewcolor"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="5dp">
+
+
+    <RelativeLayout
+        android:id="@+id/cardlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@drawable/cardviewbg">
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/pickUpTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:hint="pickup time"
+            android:paddingLeft="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/titillium_semibold"
+            android:layout_below="@+id/id"/>
+        <ImageView
+            android:id="@+id/dot1"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/dot"/>
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:hint="id"
+            android:paddingLeft="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/titillium_semibold"/>
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_marginTop="10dp"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:background="@drawable/arrow3"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/id"
+            />
+        <TextView
+            android:paddingTop="5dp"
+            android:id="@+id/delivery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:hint="delivery"
+            android:textColor="@color/lightblack"
+            android:fontFamily="@font/titillium_regular"
+            android:layout_below="@+id/pickUpTime"
+            android:paddingLeft="20dp"
+            android:layout_toLeftOf="@+id/arrow"/>
+        <TextView
+            android:id="@+id/deliveryStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:hint="status"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/logoblue"
+            android:fontFamily="@font/titillium_regular"
+            android:layout_toRightOf="@+id/pickUpTime"/>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+
+
